@@ -22,6 +22,7 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin({
     template: path.resolve(__dirname, './public/index.html')
   })],
+  devtool: 'source-map',
   devServer: {
     contentBase: path.resolve(__dirname, './dist'),
   },
