@@ -4,9 +4,8 @@
   "description": "A react project setup from scratch with webpack 5 and babel.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production",
-    "serve": "webpack serve",
+    "serve:dev": " NODE_ENV=development webpack serve",
+    "serve:prod": " NODE_ENV=production webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
