@@ -1,2 +1,5 @@
 # Node Artifacts
 node_modules
+
+# Mac generated files
+.DS_Store
