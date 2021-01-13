@@ -1,0 +1,17 @@
+{
+  "name": "react-setup",
+  "version": "1.0.0",
+  "description": "A react project setup from scratch with webpack 5 and babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "boilerplate"
+  ],
+  "author": "Pushpendra Singh",
+  "license": "ISC"
+}
