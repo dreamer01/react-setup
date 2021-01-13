@@ -9,3 +9,7 @@ yarn-error.log
 
 # meta files
 output.txt
+
+# env files
+.env.dev
+.env.prod
