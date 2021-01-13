@@ -3,3 +3,9 @@ node_modules
 
 # Mac generated files
 .DS_Store
+
+# yarn files
+yarn-error.log
+
+# meta files
+output.txt
