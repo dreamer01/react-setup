@@ -13,3 +13,6 @@ output.txt
 # env files
 .env.dev
 .env.prod
+
+# build files
+dist
