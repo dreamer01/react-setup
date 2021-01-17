@@ -1,8 +1,10 @@
 import React from 'react';
 
+import styles from "./app.css"
+
 function App({ message }) {
   return (
-    <div>
+    <div className={styles.app}>
       {message}
       {console.log(process.env.API_URL)}
     </div>

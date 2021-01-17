@@ -1,0 +1,11 @@
+body{
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+.app{
+  padding: 20px;
+  background-color: beige;
+  min-height: 100%;
+}

@@ -10,13 +10,26 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
+      {
+        test: /\.css$/i,
+        exclude: /node_modules/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
     extensions: ['*', '.js', '.jsx'],
   },
   output: {
-    path: path.resolve(__dirname, './dist'),
+    path: path.resolve(__dirname, '../dist'),
     filename: 'bundle.js',
   },
   plugins: [
